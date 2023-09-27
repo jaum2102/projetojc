@@ -11,6 +11,9 @@ li a{
     padding: 14px 16px;
     list-style-type: none;
 }
+li{
+    width: 10%;
+}
 .paginas{
     background-color: white;
     list-style-type: none;
