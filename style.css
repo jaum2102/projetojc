@@ -17,5 +17,6 @@ li a{
 
 }
 body{
+    list-style-type: none;
     background-color: rgb(233, 233, 233);
 }
