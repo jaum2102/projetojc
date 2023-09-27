@@ -1,9 +1,13 @@
 .ul{
+    background-color: white;
     text-align:left;
     margin-left: 2%;
 
 }
 .separador_barra{
     width:10%;
-    
+
+}
+body{
+    background-color: grey;
 }
