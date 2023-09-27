@@ -5,6 +5,7 @@ li a{
     display: block;
     text-align: center;
     padding: 14px 16px;
+    list-style-type: none;
 }
 .separador_barra{
     width:10%;
