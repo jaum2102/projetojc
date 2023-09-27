@@ -1,6 +1,5 @@
 li a{
     margin: 0px;
-    width:10%;
     background-color: white;
     margin-left: 2%;
     margin-right: 0px;
@@ -10,23 +9,33 @@ li a{
     text-align: center;
     padding: 14px 16px;
     list-style-type: none;
+    align-items: left;
+    float: left;
+    justify-content: center;
 }
 li{
-    width: 10%;
+    margin-left: 2%;
     overflow: hidden;
+    align-items: left;
+    float: left;
+    justify-content: center;
+
 }
 .paginas{
     background-color: white;
     list-style-type: none;
-    height: 110px;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
 .separador_barra{
-    width:10%;
+    width:20%;
     padding-left: 10%;
     overflow: hidden;
 }
 body{
+    padding: 0;
+    margin: 0;
     list-style-type: none;
     background-color: rgb(233, 233, 233);
     overflow: hidden;
@@ -34,4 +43,6 @@ body{
 ul{
     list-style-type: none;
     overflow: hidden;
+    padding-left: 35%;
+    padding-right: 35%;
 }
