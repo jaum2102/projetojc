@@ -7,6 +7,9 @@ li a{
     padding: 14px 16px;
     list-style-type: none;
 }
+.paginas{
+    background-color: white;
+}
 .separador_barra{
     width:10%;
 
