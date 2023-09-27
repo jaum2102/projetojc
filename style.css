@@ -4,7 +4,7 @@ li a{
     background-color: white;
     margin-left: 2%;
     margin-right: 0px;
-    
+    overflow: hidden;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -13,21 +13,25 @@ li a{
 }
 li{
     width: 10%;
+    overflow: hidden;
 }
 .paginas{
     background-color: white;
     list-style-type: none;
     height: 110px;
+    overflow: hidden;
 }
 .separador_barra{
     width:10%;
     padding-left: 10%;
-
+    overflow: hidden;
 }
 body{
     list-style-type: none;
     background-color: rgb(233, 233, 233);
+    overflow: hidden;
 }
 ul{
     list-style-type: none;
+    overflow: hidden;
 }
