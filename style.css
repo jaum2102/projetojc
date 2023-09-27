@@ -12,6 +12,7 @@ li a{
 .paginas{
     background-color: white;
     list-style-type: none;
+    height: 110px;
 }
 .separador_barra{
     width:10%;
