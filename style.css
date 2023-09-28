@@ -35,7 +35,7 @@ body{
     padding: 0;
     margin: 0;
     list-style-type: none;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 ul{
@@ -52,4 +52,71 @@ ul{
     text-decoration: none;
     color:black;
     font-size: 150%;
+}
+.separador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:0;
+    height:0;
+    border-right:25vw solid transparent;
+    border-top: 35.3vw solid rgb(0, 0, 0);
+    margin-left: 40vw;
+    margin-top: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+.box{
+    background-color: black;
+    color: white;
+    width: 40vw;
+    height: 35.3vw;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+h1{
+    display: flex;
+    margin-inline-start: 0 ;
+    margin-inline-end: 0;
+    overflow: hidden;
+    float: left;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+h2{
+    display: flex;
+    margin-inline-start: 0 ;
+    margin-inline-end: 0;
+    overflow: hidden;
+    float: left;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+
+}
+.texto{
+    display: flex;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.img{
+    width:40vw;
+    float: right;
+    margin-inline-start: 0 ;
+    margin-inline-end: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    overflow: hidden;
+    margin-right: 40vw;
+
+}
+.back{
+    background-image: url(https://www.movement.com.br//wp-content/uploads/2023/02/academia-fire-sport-2-min.jpg);
+    background-repeat: no-repeat;
+    border-image-width: 100vw;
 }
