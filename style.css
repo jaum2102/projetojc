@@ -44,5 +44,8 @@ ul{
     list-style-type: none;
     overflow: hidden;
     padding-left: 30%;
-    
+    color: black;
+}
+.home{
+    color:greenyellow;
 }
