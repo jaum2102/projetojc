@@ -76,7 +76,7 @@ ul{
     margin-block-start: 0;
 }
 h1{
-    display: flex;
+
     margin-inline-start: 0 ;
     margin-inline-end: 0;
     overflow: hidden;
@@ -87,7 +87,7 @@ h1{
     padding-inline-end: 0;
 }
 h2{
-    display: flex;
+
     margin-inline-start: 0 ;
     margin-inline-end: 0;
     overflow: hidden;
@@ -99,7 +99,6 @@ h2{
 
 }
 .texto{
-    display: flex;
     margin-block-end: 0;
     margin-block-start: 0;
 }
@@ -122,5 +121,55 @@ img{
     margin-block-end: 0;
     margin-block-start: 0;
     margin-top: -60vw;
-    
+}
+.col{
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.col-o{
+    display: block;
+    width: 30vw;
+}
+input[type=text]{
+    float: left;
+    justify-content: center;
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+button[type=submit]{
+    border-radius: 20px;
+    height: 2vw;
+    border-width: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    width: 200px;
+    margin-right:100%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    float: left;
+}
+button[type=reset]{
+    border-radius: 20px;
+    height: 2vw;
+    border-width: 1;
+    background-color: grey;
+    border-color: green;
+    border-style:double;
+    font-size:25px;
+    width: 200px;
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+p{
+    margin-top: 2%;
+    margin-left: 15%;
+
 }
