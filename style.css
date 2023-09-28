@@ -3,7 +3,6 @@ li a{
     background-color: white;
     margin-left: 2%;
     margin-right: 0px;
-    overflow: hidden;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -12,27 +11,26 @@ li a{
     align-items: left;
     float: left;
     justify-content: center;
+    text-decoration: none;
 }
 li{
     margin-left: 2%;
-    overflow: hidden;
-    align-items: left;
-    float: left;
     justify-content: center;
-
+    float: left;
+    text-decoration: none;
 }
 .paginas{
+    display: flex;
     background-color: white;
     list-style-type: none;
-    overflow: hidden;
     align-items: center;
     justify-content: center;
 }
-.separador_barra{
+/*.separador_barra{
     width:20%;
     padding-left: 10%;
     overflow: hidden;
-}
+}*/
 body{
     padding: 0;
     margin: 0;
@@ -42,10 +40,16 @@ body{
 }
 ul{
     list-style-type: none;
-    overflow: hidden;
-    padding-left: 30%;
     color: black;
+    text-decoration: none;
 }
-.home{
+.home a{
     color:greenyellow;
+    text-decoration: none;
+    font-size: 150%;
+}
+#cm a{
+    text-decoration: none;
+    color:black;
+    font-size: 150%;
 }
