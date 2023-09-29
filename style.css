@@ -26,11 +26,16 @@ li{
     align-items: center;
     justify-content: center;
     margin-top: 0;
-    
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 5;
     
 }
 .barra_de_paginas{
-    box-shadow: 5px 2px 8px 5px grey;
+    /*box-shadow: 5px 2px 8px 5px grey;*/
     margin-top: 0;
 }
 /*.separador_barra{
@@ -43,12 +48,13 @@ body{
     margin: 0;
     list-style-type: none;
     background-color: rgb(255, 255, 255);
-    overflow: hidden;
+    height: 20000px;
 }
 ul{
     list-style-type: none;
     color: black;
     text-decoration: none;
+    display:flex;
 }
 .home a{
     color:greenyellow;
@@ -101,7 +107,7 @@ ul{
     margin-block-start: 0;
     position: absolute;
 }
-h1{
+.texto h1{
     max-width: 10vw;
     margin-inline-start: 0 ;
     margin-inline-end: 0;
@@ -112,7 +118,7 @@ h1{
     padding-inline-start: 0;
     padding-inline-end: 0;
 }
-h2{
+.texto h2{
     max-width: 40vw;
     margin-inline-start: 0 ;
     margin-inline-end: 0;
@@ -125,7 +131,7 @@ h2{
     position: absolute;
 }
 .texto{
-    display: none;
+    display: flex;
     max-width:10vw;
 }
 /*.img{
@@ -154,10 +160,14 @@ h2{
     box-shadow: 0px 14px 9px 0px grey;
     height: 31vw;
     display:flex;
+    margin-top: 20vh;
 }
 .col-o{
     display: block;
     width: 30vw;
+}
+.back{
+    margin-top: 5%;
 }
 input[type=text]{
     float: left;
@@ -219,6 +229,7 @@ label{
     height:100%;
     border-left: solid rgb(53, 243, 46);
     border-width: 1%;
+    overflow: hidden;
 }
 .loginform{
     width:45%;
