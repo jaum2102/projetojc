@@ -48,7 +48,7 @@ body{
     margin: 0;
     list-style-type: none;
     background-color: rgb(255, 255, 255);
-    height: 20000px;
+    display: flex;
 }
 ul{
     list-style-type: none;
@@ -149,6 +149,7 @@ ul{
     margin-top: 0vw;
     overflow: hidden;
     height: 35.3vw;
+    width: 60vw;
 }
 .col{
     align-items: center;
@@ -251,4 +252,8 @@ footer{
     background-color: black;
     height: 20vw;
     color:white;
+}
+.sobrenosar{
+    margin-top: 42vw;
+
 }
