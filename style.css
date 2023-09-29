@@ -25,6 +25,13 @@ li{
     list-style-type: none;
     align-items: center;
     justify-content: center;
+    margin-top: 0;
+    
+    
+}
+.barra_de_paginas{
+    box-shadow: 5px 2px 8px 5px grey;
+    margin-top: 0;
 }
 /*.separador_barra{
     width:20%;
@@ -66,6 +73,24 @@ ul{
     margin-block-start: 0;
     padding-inline-start: 0;
     padding-inline-end: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.separador2{
+    align-items: center;
+    justify-content: center;
+    width:0;
+    height:0;
+    border-right:25vw solid transparent;
+    border-top: 35.3vw solid rgb(53, 243, 46);
+    margin-left: 40.3vw;
+    margin-top: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    position: absolute;
+    overflow: hidden;
 }
 .box{
     background-color: black;
@@ -74,9 +99,10 @@ ul{
     height: 35.3vw;
     margin-block-end: 0;
     margin-block-start: 0;
+    position: absolute;
 }
 h1{
-
+    max-width: 10vw;
     margin-inline-start: 0 ;
     margin-inline-end: 0;
     overflow: hidden;
@@ -87,7 +113,7 @@ h1{
     padding-inline-end: 0;
 }
 h2{
-
+    max-width: 40vw;
     margin-inline-start: 0 ;
     margin-inline-end: 0;
     overflow: hidden;
@@ -96,13 +122,13 @@ h2{
     margin-block-start: 0;
     padding-inline-start: 0;
     padding-inline-end: 0;
-
+    position: absolute;
 }
 .texto{
-    margin-block-end: 0;
-    margin-block-start: 0;
+    display: none;
+    max-width:10vw;
 }
-.img{
+/*.img{
     width:40vw;
     float: right;
     margin-inline-start: 0 ;
@@ -111,25 +137,23 @@ h2{
     margin-block-start: 0;
     overflow: hidden;
     margin-right: 40vw;
-
-}
-img{
-    display: flex;
+}*/
+.indimg{
     margin-left: 40vw;
-    margin-inline-start: 0 ;
-    margin-inline-end: 0;
-    margin-block-end: 0;
-    margin-block-start: 0;
-    margin-top: -60vw;
+    margin-top: 0vw;
+    overflow: hidden;
+    height: 35.3vw;
 }
 .col{
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: rgb(56, 56, 56);
     margin-left: 20vw;
     margin-right: 20vw;
     font-size: 25px;
-    border-radius: 20px;
+    box-shadow: 0px 14px 9px 0px grey;
+    height: 31vw;
+    display:flex;
 }
 .col-o{
     display: block;
@@ -138,38 +162,76 @@ img{
 input[type=text]{
     float: left;
     justify-content: center;
-    height: 30px;
-    width: 300px;
-    border-radius: 20px;
-    margin-left: 5%;
+    height: 2.3vw;
+    width: 86%;
+    border-radius:15px;
+    border-width: 0 ;
+    margin-left: 7%;
+    margin-right: 100%;
     font-size: 25px;
+    margin-top: 3%;
+    box-shadow: -3px 2px 8px inset;
   }
 button[type=submit]{
-    border-radius: 20px;
-    height: 2vw;
+    border-radius: 15px;
+    height: 3vw;
     border-width: 0;
     background-color: rgb(255, 255, 255);
-    font-size: 25px;
-    width: 200px;
+    font-size: 20px;
+    width: 70%;
     margin-right:100%;
-    margin-bottom: 2%;
-    margin-left: 10%;
+    margin-bottom: 1%;
+    margin-left: 15%;
+    margin-top: 10%;
     float: left;
 }
 button[type=reset]{
-    border-radius: 20px;
-    height: 2vw;
+    border-radius: 15px;
+    height: 3vw;
     border-width: 1;
-    background-color: grey;
-    border-color: green;
+    background-color: rgb(56, 56, 56);
+    border-color: rgb(53, 243, 46);
     border-style:double;
-    font-size:25px;
-    width: 200px;
+    font-size:20px;
+    width: 70%;
     margin-bottom: 2%;
-    margin-left: 10%;
-}
-p{
-    margin-top: 2%;
     margin-left: 15%;
-
+    margin-top: 2%;
+    color: rgb(53, 243, 46);
+}
+label{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 20%;
+    color: white;
+    margin-bottom: 5%;
+}
+.logimg{
+    width:55%;
+    float: right;
+    display: flex;
+    position: relative;
+    margin-inline-start: 0 ;
+    margin-inline-end: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    flex: 2;
+    height:100%;
+    border-left: solid rgb(53, 243, 46);
+    border-width: 1%;
+}
+.loginform{
+    width:45%;
+    display: flex;
+    margin-inline-start: 0 ;
+    margin-inline-end: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    height: 100%;
+   
+    
+}
+::placeholder{
+    font-size: 20px;
+    color: lightgray;
 }
