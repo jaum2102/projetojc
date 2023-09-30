@@ -121,6 +121,34 @@ ul{
     position:relative;
     margin-left: 2vw;
 }
+.botaobox1{
+    margin-left: 1vw;
+    font-size: 150%;
+    border-radius: 15px;
+    height: 3vw;
+    border-width: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 70%;
+}
+.botaobox2{
+    margin-left: 1vw;
+    font-size: 150%;
+    border-radius: 15px;
+    height: 3vw;
+    border-width: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 70%;
+}
+#botloc{
+    margin-left: 0%;
+}
+#botcon{
+    margin-left: 0%;
+}
 /*.img{
     width:40vw;
     float: right;
@@ -134,7 +162,6 @@ ul{
 .indimg{
     margin-left: 40vw;
     margin-top: 0vw;
-    overflow: hidden;
     height: 115.3vh;
     width: 59.2vw;
 }
