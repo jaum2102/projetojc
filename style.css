@@ -149,7 +149,7 @@ ul{
     margin-top: 0vw;
     overflow: hidden;
     height: 35.3vw;
-    width: 60vw;
+    width: 59.2vw;
 }
 .col{
     align-items: center;
@@ -254,6 +254,19 @@ footer{
     color:white;
 }
 .sobrenosar{
-    margin-top: 42vw;
-
+    margin-top: 40vw;
+    background-image: url(https://img.freepik.com/fotos-gratis/foto-preto-e-branco-de-um-grupo-de-atletas-que-se-exercitam-com-barras-de-peso-em-treinamento-esportivo-em-uma-academia_637285-2485.jpg);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+.sobrenostext{
+    font-size: 120%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 60%;
 }
