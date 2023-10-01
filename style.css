@@ -159,6 +159,8 @@ ul{
     margin-top: 0vw;
     height: 93.3vh;
     width: 59.2vw;
+    background-size: contain;
+    background-repeat: no-repeat repeat;
 }
 .col{
     align-items: center;
@@ -262,10 +264,11 @@ footer{
 }
 .sobrenosar{
     margin-top: 98vh;
-    background-image: url(https://img.freepik.com/fotos-gratis/foto-preto-e-branco-de-um-grupo-de-atletas-que-se-exercitam-com-barras-de-peso-em-treinamento-esportivo-em-uma-academia_637285-2485.jpg);
+    background-image: url(img/sobrenos.jpg);
     width: 100%;
     position: absolute;
     z-index: 4;
+    background-size: cover;
 }
 .sobrenostext{
     margin-top: 10vh;
@@ -292,8 +295,9 @@ footer{
     position: absolute;
     /*margin-left: 5vw;
     margin-right: 5vw;*/
-    background-image: url(https://www.pantokrator.org.br/wp-content/uploads/2022/09/Capas-Novembro3.jpg);
+    background-image: url(https://vivasaudedigital.com.br/wp-content/uploads/2020/10/covid-19-quais-cuidados-devemos-ter-ao-ir-para-a-academia-veja-728.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .botao{
     border-radius: 15px;
@@ -323,5 +327,5 @@ footer{
     background-color: black;
     height: 5vh;
     width: 100vw;
-    margin-top: 500vh;
+    margin-top: 300vh;
 }
