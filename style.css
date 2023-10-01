@@ -242,6 +242,7 @@ label{
     border-left: solid rgb(53, 243, 46);
     border-width: 1%;
     overflow: hidden;
+    background-size:auto;
 }
 .loginform{
     width:45%;
@@ -295,7 +296,7 @@ footer{
     position: absolute;
     /*margin-left: 5vw;
     margin-right: 5vw;*/
-    background-image: url(https://vivasaudedigital.com.br/wp-content/uploads/2020/10/covid-19-quais-cuidados-devemos-ter-ao-ir-para-a-academia-veja-728.jpg);
+    background-image: url(img/homem-jovem-em-sportswear-um-classe-exercicio-em-um-ginasio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
