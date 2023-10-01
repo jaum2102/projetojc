@@ -71,7 +71,7 @@ ul{
     width:0;
     height:0;
     border-right:25vw solid transparent;
-    border-top: 115.3vh solid rgb(0, 0, 0);
+    border-top: 93.3vh solid rgb(0, 0, 0);
     margin-left: 40vw;
     margin-top: 0;
     position: absolute;
@@ -84,7 +84,7 @@ ul{
     width:0;
     height:0;
     border-right:25vw solid transparent;
-    border-top: 115.3vh solid rgb(53, 243, 46);
+    border-top: 93.3vh solid rgb(53, 243, 46);
     margin-left: 40.3vw;
     margin-top: 0;
     position: absolute;
@@ -94,7 +94,7 @@ ul{
     background-color: black;
     color: white;
     width: 60vw;
-    height: 115.3vh;
+    height: 93.3vh;
     margin-block-end: 0;
     margin-block-start: 0;
     position: absolute;
@@ -104,15 +104,16 @@ ul{
     overflow: hidden;
     float: left;
     position: absolute;
-    font-size: 300%;
+    font-size: 400%;
+    margin-top: 10vh;
 }
 .texto h4{
     max-width: 40vw;
     float: left;
     position: absolute;
     display: flex;
-    font-size: 120%;
-    margin-top: 15vh;
+    font-size: 150%;
+    margin-top: 30vh;
 }
 .texto{
     display: flex;
@@ -122,32 +123,26 @@ ul{
     margin-left: 2vw;
 }
 .botaobox1{
-    margin-left: 1vw;
+    margin-left: 3vw;
     font-size: 150%;
     border-radius: 15px;
-    height: 3vw;
+    height: 5vw;
     border-width: 0;
     background-color: rgb(255, 255, 255);
-    font-size: 20px;
-    width: 70%;
-    margin-top: 70%;
+    font-size: 150%;
+    width: 30%;
+    margin-top: 80%;
 }
 .botaobox2{
-    margin-left: 1vw;
+    margin-left: 3vw;
     font-size: 150%;
     border-radius: 15px;
-    height: 3vw;
+    height: 5vw;
     border-width: 0;
-    background-color: rgb(255, 255, 255);
-    font-size: 20px;
-    width: 70%;
-    margin-top: 70%;
-}
-#botloc{
-    margin-left: 0%;
-}
-#botcon{
-    margin-left: 0%;
+    background-color: rgb(53, 243, 46);
+    font-size: 150%;
+    width: 30%;
+    margin-top: 80%;
 }
 /*.img{
     width:40vw;
@@ -162,15 +157,15 @@ ul{
 .indimg{
     margin-left: 40vw;
     margin-top: 0vw;
-    height: 115.3vh;
+    height: 93.3vh;
     width: 59.2vw;
 }
 .col{
     align-items: center;
     justify-content: center;
     background-color: rgb(56, 56, 56);
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     font-size: 25px;
     box-shadow: 0px 14px 9px 0px grey;
     height: 31vw;
@@ -179,7 +174,7 @@ ul{
 }
 .col-o{
     display: block;
-    width: 30vw;
+    width: 10vw;
 }
 .back{
     margin-top: 3%;
@@ -254,8 +249,6 @@ label{
     margin-block-end: 0;
     margin-block-start: 0;
     height: 100%;
-   
-    
 }
 ::placeholder{
     font-size: 20px;
@@ -268,10 +261,11 @@ footer{
     color:white;
 }
 .sobrenosar{
-    margin-top: 120vh;
+    margin-top: 98vh;
     background-image: url(https://img.freepik.com/fotos-gratis/foto-preto-e-branco-de-um-grupo-de-atletas-que-se-exercitam-com-barras-de-peso-em-treinamento-esportivo-em-uma-academia_637285-2485.jpg);
     width: 100%;
     position: absolute;
+    z-index: 4;
 }
 .sobrenostext{
     margin-top: 10vh;
@@ -287,12 +281,47 @@ footer{
     margin-right: auto; 
     margin-left: auto; 
     width:15vw;
+    font-size: 200%;
 }
 .vitrine{
-    float: left;
-    width: 100vw;
+    width: 99.2vw;
     color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    margin-top: 170vh;
+    position: absolute;
+    /*margin-left: 5vw;
+    margin-right: 5vw;*/
+    background-image: url(https://www.pantokrator.org.br/wp-content/uploads/2022/09/Capas-Novembro3.jpg);
+    background-repeat: no-repeat;
+}
+.botao{
+    border-radius: 15px;
+    font-size: 200%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width:19.8%;
+    display: flexbox;
+    margin-bottom: 15vh;
+    height: 20vh;
+    color: white;
+    border-style: solid;
+}
+.vitrine h1{
+    font-size: 300%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    color: white;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vitrine table{
+    width: 99vw;
+}
+footer{
+    background-color: black;
+    height: 5vh;
+    width: 100vw;
+    margin-top: 500vh;
 }
