@@ -99,12 +99,12 @@ ul{
     margin-block-start: 0;
     position: absolute;
 }
-.texto h2{
+.texto h1{
     max-width: 60vw;
     overflow: hidden;
     float: left;
     position: absolute;
-    font-size: 150%;
+    font-size: 200%;
     margin-top: 5vh;
 }
 .texto h4{
@@ -266,7 +266,7 @@ footer{
     color:white;
 }
 .sobrenosar{
-    margin-top: 98vh;
+    margin-top: 94vh;
     background-image: url(img/arranjo-de-halteres-no-ginasio.jpg);
     width: 100%;
     position: absolute;
@@ -278,48 +278,49 @@ footer{
     margin-bottom: 10vh;
     font-size: 100%;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     align-items: center;
-    width: 60%;
+    width: 80%;
 }
 .sobrenostext h1{
     margin-right: auto; 
     margin-left: auto; 
-    width:15vw;
-    font-size: 150%;
+    width:100%;
+    font-size: 200%;
+    margin-top: 5vh;
 }
 .vitrine{
     width: 99.2vw;
     color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 170vh;
+    margin-top: 175vh;
     position: absolute;
     /*margin-left: 5vw;
     margin-right: 5vw;*/
-    background-image: url(https://vivasaudedigital.com.br/wp-content/uploads/2020/10/covid-19-quais-cuidados-devemos-ter-ao-ir-para-a-academia-veja-728.jpg);
+    background-image: url(img/jovem-adulto-praticando-esportes-indoor-na-academia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .botao{
     border-radius: 15px;
-    font-size: 200%;
-    margin-left: 15%;
-    margin-right: 15%;
-    width:19.8%;
+    font-size: 150%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
     display: flexbox;
-    margin-bottom: 15vh;
-    height: 20vh;
+    margin-bottom: 5vh;
+    height: 10vh;
     color: white;
     border-style: solid;
-}
+}  
 .vitrine h1{
-    font-size: 300%;
+    font-size: 200%;
     margin-top: 15vh;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
+    width: 50%;
     color: white;
-    width: 10vw;
     margin-left: auto;
     margin-right: auto;
 }

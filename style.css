@@ -99,7 +99,7 @@ ul{
     margin-block-start: 0;
     position: absolute;
 }
-.texto h2{
+.texto h1{
     max-width: 60vw;
     overflow: hidden;
     float: left;
