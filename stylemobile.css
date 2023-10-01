@@ -161,10 +161,9 @@ ul{
 .indimg{
     margin-left: 40vw;
     margin-top: 0vw;
-    height: 93.3vh;
-    width: 59.2vw;
-    background-size: contain;
-    background-repeat: no-repeat repeat;
+    /*height: 93.3vh;*/
+    /*width: 59.2vw;*/
+    background-size: cover;
 }
 .col{
     align-items: center;
