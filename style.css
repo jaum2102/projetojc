@@ -230,6 +230,8 @@ label{
     margin-bottom: 5%;
 }
 .logimg{
+    background-image: url(img/log.jpg);
+    background-image: contain;
     width:55%;
     float: right;
     display: flex;

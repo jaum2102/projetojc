@@ -169,17 +169,17 @@ ul{
     align-items: center;
     justify-content: center;
     background-color: rgb(56, 56, 56);
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     font-size: 25px;
     box-shadow: 0px 14px 9px 0px grey;
-    height: 31vw;
+    height: 80vw;
     display:flex;
     margin-top: 20vh;
 }
 .col-o{
     display: block;
-    width: 10vw;
+    width: 2.5vw;
 }
 .back{
     margin-top: 3%;
@@ -187,11 +187,11 @@ ul{
 input[type=text]{
     float: left;
     justify-content: center;
-    height: 2.3vw;
-    width: 86%;
+    height: 7.3vw;
+    width: 96%;
     border-radius:15px;
     border-width: 0 ;
-    margin-left: 7%;
+    margin-left: 2%;
     margin-right: 100%;
     font-size: 25px;
     margin-top: 3%;
@@ -199,7 +199,7 @@ input[type=text]{
   }
 button[type=submit]{
     border-radius: 15px;
-    height: 3vw;
+    height: 10vw;
     border-width: 0;
     background-color: rgb(255, 255, 255);
     font-size: 20px;
@@ -212,7 +212,7 @@ button[type=submit]{
 }
 button[type=reset]{
     border-radius: 15px;
-    height: 3vw;
+    height: 10vw;
     border-width: 1;
     background-color: rgb(56, 56, 56);
     border-color: rgb(53, 243, 46);
@@ -232,7 +232,7 @@ label{
     margin-bottom: 5%;
 }
 .logimg{
-    width:55%;
+    width:35%;
     float: right;
     display: flex;
     position: relative;
@@ -247,7 +247,7 @@ label{
     overflow: hidden;
 }
 .loginform{
-    width:45%;
+    width:65%;
     display: flex;
     margin-inline-start: 0 ;
     margin-inline-end: 0;
@@ -295,7 +295,7 @@ footer{
     color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 175vh;
+    margin-top: 190vh;
     position: absolute;
     /*margin-left: 5vw;
     margin-right: 5vw;*/
