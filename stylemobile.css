@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/poppins/Poppins-Black.otf) format('.otf');
+ }
+
+
 li a{
+    font-family: 'Poppins';
     margin: 0px;
     background-color: rgb(255, 255, 255);
     margin-right: 0px;
@@ -14,11 +21,13 @@ li a{
     
 }
 li{
+    font-family: 'Poppins';
     float: left;
     text-decoration: none;
     margin-left: 0;
 }
 .paginas{
+    font-family: 'Poppins';
     background-color: white;
     list-style-type: none;
     margin-top: 0;
@@ -72,7 +81,7 @@ ul{
     height:0;
     border-right:25vw solid transparent;
     border-top: 93.3vh solid rgb(0, 0, 0);
-    margin-left: 40vw;
+    margin-left: 39.5vw;
     margin-top: 0;
     position: absolute;
     z-index: 3;
@@ -113,7 +122,7 @@ ul{
     position: absolute;
     display: flex;
     font-size: 100%;
-    margin-top: 15vh;
+    margin-top: 20vh;
 }
 .texto{
     display: flex;
@@ -142,7 +151,7 @@ ul{
     background-color: rgb(53, 243, 46);
     font-size: 150%;
     width: 100%;
-    margin-top: 0%;
+    margin-top: 10vh;
 }
 .texto table{
     width:50vw;
@@ -173,9 +182,10 @@ ul{
     margin-right: 5vw;
     font-size: 25px;
     box-shadow: 0px 14px 9px 0px grey;
-    height: 80vw;
+    height: 120%;
     display:flex;
     margin-top: 20vh;
+    width:85vw
 }
 .col-o{
     display: block;
@@ -232,6 +242,8 @@ label{
     margin-bottom: 5%;
 }
 .logimg{
+    background-image: url(img/conceito-de-levantamento-de-peso-com-halteres-de-alto-angulo.jpg);
+    background-size: cover;
     width:35%;
     float: right;
     display: flex;
@@ -241,7 +253,7 @@ label{
     margin-block-end: 0;
     margin-block-start: 0;
     flex: 2;
-    height:100%;
+    height:60vh;
     border-left: solid rgb(53, 243, 46);
     border-width: 1%;
     overflow: hidden;
