@@ -1,4 +1,4 @@
-/*ESTILO PRA TELA DE 800*/
+/*estilo pra tela de 800*/
 @font-face {
     font-family: 'Poppins';
     src: url(font/poppins/Poppins-Black.otf) format('.otf');
@@ -109,20 +109,20 @@ ul{
     margin-block-start: 0;
     position: absolute;
 }
-.texto h1{
+.texto h1{ /*titulo*/
     max-width: 60vw;
     overflow: hidden;
     float: left;
     position: absolute;
-    font-size: 200%;
+    font-size: 150%;
     margin-top: 5vh;
 }
-.texto h4{
+.texto h4{ /*texto*/
     max-width: 50vw;
     float: left;
     position: absolute;
     display: flex;
-    font-size: 100%;
+    font-size: 85%;
     margin-top: 20vh;
 }
 .texto{
@@ -132,25 +132,25 @@ ul{
     position:relative;
     margin-left: 2vw;
 }
-.botaobox1{
-    margin-left: 3vw;
+.botaobox1{ /*localizacao*/
+    margin-left: 1vw;
     font-size: 150%;
     border-radius: 15px;
     height: 10vw;
     border-width: 0;
     background-color: rgb(255, 255, 255);
-    font-size: 150%;
+    font-size: 125%;
     width: 100%;
     margin-top: 30%;
 }
-.botaobox2{
-    margin-left: 3vw;
-    font-size: 150%;
+.botaobox2{ /*contato*/
+    margin-left: 1vw;
+    font-size: 125%;
     border-radius: 15px;
     height: 10vw;
     border-width: 0;
     background-color: rgb(53, 243, 46);
-    font-size: 150%;
+    font-size: 125%;
     width: 100%;
     margin-top: 10vh;
 }

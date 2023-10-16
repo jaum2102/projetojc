@@ -1,4 +1,4 @@
-/*ESTILO PRA TELA DE 800*/
+/*estilo pra tela de 800*/
 @font-face {
     font-family: 'Poppins';
     src: url(font/poppins/Poppins-Black.otf) format('.otf');
@@ -103,26 +103,26 @@ ul{
 .box{
     background-color: black;
     color: white;
-    width: 60vw;
+    width: 62vw;
     height: 93.3vh;
     margin-block-end: 0;
     margin-block-start: 0;
     position: absolute;
 }
-.texto h1{
+.texto h1{ /*titulo*/
     max-width: 60vw;
     overflow: hidden;
     float: left;
     position: absolute;
-    font-size: 200%;
-    margin-top: 5vh;
+    font-size: 150%;
+    margin-top: 10vh;
 }
-.texto h4{
+.texto h4{ /*texto*/
     max-width: 50vw;
     float: left;
     position: absolute;
     display: flex;
-    font-size: 100%;
+    font-size: 85%;
     margin-top: 20vh;
 }
 .texto{
@@ -132,25 +132,25 @@ ul{
     position:relative;
     margin-left: 2vw;
 }
-.botaobox1{
-    margin-left: 3vw;
+.botaobox1{ /*localizacao*/
+    margin-left: 1vw;
     font-size: 150%;
     border-radius: 15px;
     height: 10vw;
     border-width: 0;
     background-color: rgb(255, 255, 255);
-    font-size: 150%;
+    font-size: 125%;
     width: 100%;
     margin-top: 30%;
 }
-.botaobox2{
-    margin-left: 3vw;
-    font-size: 150%;
+.botaobox2{ /*contato*/
+    margin-left: 1vw;
+    font-size: 125%;
     border-radius: 15px;
     height: 10vw;
     border-width: 0;
     background-color: rgb(53, 243, 46);
-    font-size: 150%;
+    font-size: 125%;
     width: 100%;
     margin-top: 10vh;
 }
@@ -170,8 +170,8 @@ ul{
 }*/
 .indimg{
     margin-top: 0vw;
-    /*height: 93.3vh;*/
-    /*width: 59.2vw;*/
+    height: 93.3vh;
+    width: 55vw;
     background-size: cover;
     background-image: url(img/mulher-adulto-sinal-simbolo-familia.jpg);
 }
@@ -181,7 +181,7 @@ ul{
     background-color: rgb(56, 56, 56);
     margin-left: 5vw;
     margin-right: 5vw;
-    font-size: 25px;
+    font-size: 35px;
     box-shadow: 0px 14px 9px 0px grey;
     height: 120%;
     display:flex;
@@ -243,8 +243,9 @@ label{
     margin-bottom: 5%;
 }
 .logimg{
-    background-image: url(img/conceito-de-levantamento-de-peso-com-halteres-de-alto-angulo.jpg);
+    background-image: url(img/pesos\ teste.png);
     background-size: cover;
+    background-repeat: no-repeat;
     width:35%;
     float: right;
     display: flex;
@@ -255,8 +256,6 @@ label{
     margin-block-start: 0;
     flex: 2;
     height:60vh;
-    border-left: solid rgb(53, 243, 46);
-    border-width: 1%;
     overflow: hidden;
 }
 .loginform{
@@ -279,7 +278,7 @@ footer{
     color:white;
 }
 .sobrenosar{
-    margin-top: 94vh;
+    margin-top: 93vh;
     background-image: url(img/arranjo-de-halteres-no-ginasio.jpg);
     width: 100%;
     position: absolute;
@@ -304,17 +303,17 @@ footer{
     margin-top: 5vh;
 }
 .vitrine{
-    width: 99.2vw;
+    width: 100vw;
     color: rgb(0, 0, 0);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 190vh;
+    margin-left: 0vw;
+    margin-right: 1vw;
+    margin-top: 213vh;
     position: absolute;
     /*margin-left: 5vw;
     margin-right: 5vw;*/
     background-image: url(img/jovem-adulto-praticando-esportes-indoor-na-academia.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 205vw;
 }
 .botao{
     border-radius: 15px;
@@ -342,7 +341,7 @@ footer{
 }
 footer{
     background-color: black;
-    height: 5vh;
+    height: 20vh;
     width: 100vw;
-    margin-top: 300vh;
+    margin-top: 298vh;
 }

@@ -176,10 +176,10 @@ ul{
 }*/
 .indimg{
     background-image: url(img/home.jpg);
-    margin-left: 40vw;
+    margin-left: 45vw;
     margin-top: 0vw;
     height: 93.3vh;
-    width: 59.2vw;
+    width: 54.2vw;
     background-size: cover;
     background-repeat: no-repeat repeat;
 }
@@ -296,8 +296,8 @@ footer{
     color:white;
 }
 .sobrenosar{
-    margin-top: 98vh;
-    background-image: url(img/sobrenos.jpg);
+    margin-top: 92vh;
+    background-image: url(img/escuro\ sobrenos.jpg);
     width: 100%;
     position: absolute;
     z-index: 4;
@@ -332,7 +332,7 @@ footer{
     color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 170vh;
+    margin-top: 180vh;
     position: absolute;
     /*margin-left: 5vw;
     margin-right: 5vw;*/
@@ -370,7 +370,7 @@ footer{
 }
 footer{
     background-color: black;
-    height: 5vh;
+    height: 10vh;
     width: 100vw;
-    margin-top: 300vh;
+    margin-top: 288vh;
 }
