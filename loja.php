@@ -13,18 +13,13 @@
             <li class="home" id="sp"><a href="index.html">Home</a></li>
             <li class="sobrenos" id="cm"><a href="sobrenos.html">Sobre</a></li>
             <li class="loja" id="cm"><a href="loja.html">Loja</a></li>
-            <li class="login" id="cm"><a href="login.html">Login</a></li>
-            <li class="atividades" id="cm"><a href="atividades.html">Atividades</a></li>
+            <li class="login" id="cm"><a href="login.php">Login</a></li>
+            <!--<li class="atividades" id="cm"><a href="atividades.html">Atividades</a></li>
             <li class="galeria" id="cm"><a href="galeria.html">Galeria</a></li>
-            <li class="treinos" id="cm"><a href="treinos.html">Treinos</a></li>
+            <li class="treinos" id="cm"><a href="treinos.html">Treinos</a></li>-->
         </ul>
     </div>
     <div class="loja">
-    <form method="POST" action="paginas/pesquisar.php">
-        <input type="text" name="pesquisar" placeholder="Pesquisar...">
-            <label for="pesquisa"><img src="paginas/img\search.png" style="width:25px;cursor:pointer;"></label>
-            <input type="submit" class="psquisa" id="pesquisa" style="display:none;">
-        </form>
     <div class="prod">
     <?php  
              
