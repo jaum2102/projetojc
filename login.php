@@ -27,10 +27,9 @@
     
     <div class="loginform">
         
-        <form action="https://webhook.site/1b6d2815-e5c3-462c-b139-e15095766fdb">
+        <form action="logverf.php" method="POST">
             <label>Faça seu login aqui</label>
-                <input type="text" size="50" placeholder="Nome"><br>
-                <input type="text" size="50"  placeholder="Pin"><br>
+                <input type="text" size="50"  placeholder="Pin" name="u_id"><br>
                 <a href="senha.html" style="font-size: 20px;  margin-left: 5%; text-decoration: none; color:white;">Esqueci meu pin</a>
             <button type="submit">ENVIAR</button>
             <button type="reset">LIMPAR</button>
