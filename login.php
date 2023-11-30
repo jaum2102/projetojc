@@ -7,9 +7,9 @@ $conn = new mysqli($servername, $username, $password, $database) or die('erro');
 if(isset($_POST['u_id'])){
     if(strlen($_POST['u_id'])==0){
     }
-    else{
+    elseif(strlen($_POST['u_id'])!=0){
         $u_id = $conn->real_escape_string($_POST['u_id']);
-        $sql_code = "SELECT * FROM users WHERE u_id = '$u_id'";
+        $sql_code = "SELECT * FROM adm WHERE u_id = '$u_id'";
         $sql_query = $conn->query($sql_code) or die("falha da execução do codigo".$conn->error);
         $quantidade = $sql_query->num_rows;
         if($quantidade == 1){
@@ -19,9 +19,23 @@ if(isset($_POST['u_id'])){
             }
             $_SESSION['u_id']=$user['u_id'];
 
-            header("Location: loja.php");
+            header("Location: createprod.php");
         }else{
-            echo "falha ao logar";
+            $u_id = $conn->real_escape_string($_POST['u_id']);
+            $sql_code = "SELECT * FROM users WHERE u_id = '$u_id'";
+            $sql_query = $conn->query($sql_code) or die("falha da execução do codigo".$conn->error);
+            $quantidade = $sql_query->num_rows;
+            if($quantidade == 1){
+                $user = $sql_query->fetch_assoc();
+                if(!isset($_SESSION)){
+                    session_start();
+                }
+                $_SESSION['u_id']=$user['u_id'];
+    
+                header("Location: loja.php");
+            }else{
+                echo "falha ao logar";
+            }
         }
     }
 

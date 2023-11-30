@@ -34,7 +34,7 @@
                 
             ?>    
             <div class="produtos">
-                <a href="paginas/produto.php?p_id=<?= $prod['p_id']; ?>">
+                <a href="produto.php?p_id=<?= $prod['p_id']; ?>">
                 <!--<img src="paginas/paginasadm/prod/<?//php echo $prod['p_img']; ?>">-->
                 <div style="margin-top: 5% !important;" class="desc"><a><?= $prod['p_nome']; ?></a></div>
                 <div style="margin-top: 2% !important;" class="preç"><a>R$<?= $prod['p_preco']; ?></a></div>
